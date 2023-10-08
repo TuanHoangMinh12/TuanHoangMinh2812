@@ -1,0 +1,40 @@
+.content{
+    margin-top: 40px;
+}
+
+
+.content button {
+    width: 200px;
+    height: 40px;
+    margin-left: 50px;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.pink{
+    background-color: pink;
+}
+.red{
+    background-color: red;
+}
+.cyan{
+    background-color: cyan;
+}
+.green{
+    background-color: green;
+}
+.brown{
+    background-color: brown;
+}
+.gray{
+    background-color: gray;
+}
+.purple{
+    background-color: purple;
+}

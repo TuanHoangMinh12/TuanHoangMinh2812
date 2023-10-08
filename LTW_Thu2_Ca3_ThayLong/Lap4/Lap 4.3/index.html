@@ -1,0 +1,61 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <meta name="theme-color" content="#fafafa">
+    <title>Lời chào ngẫu nhiên</title>
+    <style>
+        /* CSS cho phần hiển thị lời chào */
+        #greeting {
+            font-size: 24px;
+            text-align: center;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+
+
+<body>
+<div id="greeting"></div>
+
+<script>
+    // Mảng chứa các lời chào ngẫu nhiên
+    const greetings = [
+        "Chào bạn!",
+        "Ngày mới vui vẻ!",
+        "Chúc một ngày thật nhiều niềm vui",
+        "Buỗi sáng may mắn!",
+        "Chúc một ngày tốt lành!",
+        "Chào buổi sáng!"
+
+    ];
+
+    // Chọn một lời chào ngẫu nhiên từ mảng
+    const randomIndex = Math.floor(Math.random() * greetings.length);
+    const randomGreeting = greetings[randomIndex];
+
+    // Hiển thị lời chào lên trang web
+    const greetingElement = document.getElementById("greeting");
+    greetingElement.textContent = randomGreeting;
+</script>
+
+</body>
+
+</html>
